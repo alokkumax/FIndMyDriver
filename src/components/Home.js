@@ -14,9 +14,9 @@ export default function Home() {
                             <p className="brand4 text-start">We are a group of dedicated individuals from different background with a common interest of using technology to solve problems. </p>
                             <p className="brand2 text-start">connect with us today</p>
                             <div className='text-start socials'>
-                                <a href="https://twitter.com/GDGSiliguri"><BsTwitter className='icons' /></a>
-                                <a href="https://www.linkedin.com/company/gdg-siliguri/"><BsLinkedin className='icons' /></a>
-                                <a href="https://www.facebook.com/GDGSiliguri"><BsFacebook className='icons' /></a>
+                                <a href="https://twitter.com"><BsTwitter className='icons' /></a>
+                                <a href="https://www.linkedin.com"><BsLinkedin className='icons' /></a>
+                                <a href="https://www.facebook.com"><BsFacebook className='icons' /></a>
                             </div>
                         </div>
                         <div className="second col-lg-5 col-12  text-start">
