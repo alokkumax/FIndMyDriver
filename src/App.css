@@ -32,7 +32,132 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.logo {
+  width: 46px;
+  height: 35px;
+}
+
+.nav1 {
+  color: #09081A;
+  font-size: 22px;
+  font-family: "poppins";
+}
+
+.nav1:hover {
+  color: #6D34CB;
+  cursor: pointer;
+}
+
+.brand {
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "poppins";
+  color: #09081A;
+}
+
+.brand1 {
+  color: #09081A;
+  font-size: 22px;
+  font-family: "poppins";
+}
+
+.brand3 {
+  color: #09081A;
+  font-size: 60px;
+  font-family: "poppins";
+}
+
+.brand2 {
+  color: #6D34CB;
+  font-size: 20px;
+  font-family: "poppins";
+}
+
+.brand4 {
+  color: #09081A;
+  font-size: 22px;
+  font-family: "poppins";
+}
+
+.brand5 {
+  color: #09081A;
+  font-size: 40px;
+  font-family: "poppins";
+}
+
+.navbarItem {
+  gap: 55px;
+}
+
+.icons {
+  height: 30px;
+  width: 30px;
+  color: #09081A;
+  margin-right: 15px;
+}
+
+.icons:hover {
+  color: #6D34CB;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.btns {
+  background-color: #6D34CB;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+.arrow {
+  height: 50px;
+  width: 100px;
+  rotate: 45deg;
+}
+
+.arrowText {
+  color: #09081A;
+  font-size: 20px;
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+@media (max-width:1400px) {
+  .brand3 {
+    font-size: 55px;
+  }
+
+}
+
+.first {
+  margin-top: 50px;
+}
+
+.second {
+  margin-top: 50px;
+}
+
+@media (max-width:990px) {
+  .second {
+    margin-top: 0px;
+  }
+
+  .first {
+    margin-top: 0px;
   }
 }
