@@ -5,7 +5,6 @@ import { BsFacebook } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 export default function Home() {
     return (
-
         <div>
             <div className="hero">
                 <div className="container">
@@ -28,7 +27,7 @@ export default function Home() {
                             </div>
                             <br />
                             <div className='button'>
-                                <img className='arrow' src={arrow} alt="" />
+                                <img className='arrow' alt='' src={arrow} />
                                 <p className='mt-4 arrowText'>
                                     coming soon near your city
                                 </p>
