@@ -28,7 +28,7 @@ export default function Home() {
                             </div>
                             <br />
                             <div className='button'>
-                                <img className='arrow' src={arrow} />
+                                <img className='arrow' src={arrow} alt="" />
                                 <p className='mt-4 arrowText'>
                                     coming soon near your city
                                 </p>
